@@ -1,0 +1,258 @@
+* {
+
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
+header {
+
+    background-color: rgb(95, 42, 124);
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+img {
+
+    width: 300px;
+
+}
+
+.ok {
+
+    background-color: white;
+    padding: 10px;
+    max-width: 200px;
+    width: 200px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 25px;
+    font-family: 'Ibarra Real Nova', serif;
+
+}
+
+#botoesheader {
+
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+#linksDoCabecalho, #linksDoCabecalhoo {
+
+    margin-right: 20px;
+    margin-left: 20px;
+    color: rgb(95, 42, 124);
+
+}
+
+#linksDoCabecalho:hover, #linksDoCabecalhoo:hover {
+
+    opacity: 0.7;
+    transition: 1s;
+
+}
+
+.ok3 {
+
+    margin-top: 50px;
+    text-align: center;
+    font-family: 'Great Vibes', cursive;
+    font-size: 125px;
+
+}
+
+.traço1 {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+
+.traço1-1 {
+
+    width: 1000px;
+    
+}
+
+#Eventos {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#evento1 {
+
+    margin-top: 40px;
+
+}
+
+.eventosimg {
+
+    background-color: rgb(53, 53, 53);
+    color: white;
+    width: 700px;
+    height: 150px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-family: 'Great Vibes', cursive;
+
+}
+
+.eventosimgfutura {
+
+    background-color: rgb(95, 42, 124);
+    color: white;
+    width: 700px;
+    height: 250px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-family: 'Great Vibes', cursive;
+
+}
+
+.eventosimgfutura, .eventosimg {
+
+    margin-top: 40px;
+
+}
+
+.encerradostitle {
+
+    color: black;
+    margin-top: 5px;
+    font-family: 'Ibarra Real Nova', serif;
+    font-size: 27px;
+
+}
+
+.botãodefotos {
+
+    color: white;
+    background-color: rgb(53, 53, 53);
+    width: 200px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    font-family: 'Ibarra Real Nova', serif;
+    margin-top: 5px;
+
+}
+
+.dadossobreeventofuturo {
+
+    font-family: 'Ibarra Real Nova', serif;
+    color: black;
+    font-size: 20px;
+    line-height: 20px;
+
+}
+
+#dadossobreeventofuturoid {
+
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+@keyframes animacaoimg {
+
+    0%, 20%, 60%, 100% {
+
+        -webkit-transform: transleteY(0);
+        transform: translateY(0);
+    
+    }
+
+    40% {
+
+        -webkit-transform: transleteY(-20px);
+        transform: translateY(-20px);
+
+    }
+
+    80% {
+
+        -webkit-transform: transleteY(-10px);
+        transform: translateY(-10px);
+
+    }
+
+}
+
+@keyframes animacaoimg2 {
+
+    0%, 20%, 60%, 100% {
+
+        -webkit-transform: transleteY(0);
+        transform: translateY(0);
+    
+    }
+
+    40% {
+
+        -webkit-transform: transleteY(-10px);
+        transform: translateY(-10px);
+
+    }
+
+    80% {
+
+        -webkit-transform: transleteY(-5px);
+        transform: translateY(-5px);
+
+    }
+
+}
+
+
+.eventosimg:hover, .eventosimgfutura:hover {
+
+    animation: animacaoimg 1s;
+
+}
+
+.botãodefotos:hover {
+
+    opacity: 0.7;
+    transition: 1s;
+  
+}
+
+footer {
+
+    margin-top: 50px;
+    background-color: rgb(95, 42, 124);
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+
+}
